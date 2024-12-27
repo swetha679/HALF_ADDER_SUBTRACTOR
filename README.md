@@ -8,7 +8,7 @@ To design a half adder and half subtractor circuit and verify its truth table in
 
 **Equipments Required:**
 
-Hardware – PCs, Cyclone II , USB flasher 
+Hardware – PCs, Cyclone II, USB flasher 
 
 Software – Quartus prime Theory Adders are digital circuits that carry out the addition of numbers.
 
@@ -32,7 +32,7 @@ Figure -01 HALF ADDER
 
 **Half Subtractor**
 
-The half-subtractor is a combinational circuit which is used to perform subtraction of two bits. It has two inputs, X (minuend) and Y (subtrahend) and two outputs D (difference) and B (borrow). To perform x - y, we have to check the relative magnitudes of x and y. If x ;;, y, we have three possibilities: 0 - 0 = 0, 1 - 0 = 1, and 1 - I = 0. The result is called the difference bit. If x < y, we have 0 - I, and it is necessary to borrow a 1 from the next higher stage. The I borrowed from the next higher stage adds 2 to the minuend bit, just as in the decimal system a borrow adds 10 to a minuend digit. With the minuend equal to 2, the difference becomes 2 - I = 1. The half-subtractor needs two outputs. One output generates the difference and will be designated by the symbol D. The second output, designated B for borrow, generates the binary signal that informs the next stage that a I has been borrowed. 
+The half-subtractor is a combinational circuit that is used to perform the subtraction of two bits. It has two inputs, X (minuend) and Y (subtrahend), and two outputs D (difference) and B (borrow). To perform x - y, we have to check the relative magnitudes of x and y. If x ;;, y, we have three possibilities: 0 - 0 = 0, 1 - 0 = 1, and 1 - I = 0. The result is called the difference bit. If x < y, we have 0 - I, and it is necessary to borrow a 1 from the next higher stage. The I borrowed from the next higher stage adds 2 to the minuend bit, just as in the decimal system a borrow adds 10 to a minuend digit. With the minuend equal to 2, the difference becomes 2 - I = 1. The half-subtractor needs two outputs. One output generates the difference and will be designated by the symbol D. The second output, designated B for borrow, generates the binary signal that informs the next stage that an I has been borrowed. 
 
 Diff = A’B+AB’ =A ⊕ B
 Borrow = A’B
@@ -68,7 +68,7 @@ Figure -02 HALF Subtractor
 
 
 
-developed by swetha nivasini b r 
+developed by Swetha Nivasini B R 
 
 
 
@@ -81,7 +81,7 @@ registration number 24900367
 
 module ha(a,b,sum,carry);
 input a,b;
-output sum,carry;
+output sum, carry;
 assign sum= (a ^ b);
 assign carry= ( a & b);
 endmodule
@@ -92,7 +92,7 @@ endmodule
 
 module hs(a,b,difference,borrow);
 input a,b;
-output difference,borrow;
+output difference, borrow;
 assign difference= (a ^ b);
 assign borrow= ( ~a & b);
 endmodule
@@ -138,3 +138,7 @@ endmodule
 
 
 **Result:**
+
+
+
+ Hence Implemented  Half-Adder-and-Half Subtractor-circuit
