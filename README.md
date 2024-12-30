@@ -76,7 +76,7 @@ developed by Swetha Nivasini B R
 registration number 24900367
 
 
-
+HALF ADDER
 
 
 ```module ha(a,b,sum,carry);
@@ -94,7 +94,7 @@ endmodule
 ```
 
 
-
+HALF SUBTRACTOR
 
 
 
