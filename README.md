@@ -118,14 +118,21 @@ endmodule
 
 **RTL Schematic**
 
+
+
 HALF ADDER
+
 
 
 
 ![Screenshot (50)](https://github.com/user-attachments/assets/7a4eb5b9-52dc-43c0-a686-3c21a5bdda13)
 
 
+
+
 HALF SUBTRACTOR
+
+
 
 
 ![Screenshot (52)](https://github.com/user-attachments/assets/227659b7-64df-4b31-82ed-05e05862065d)
@@ -137,14 +144,19 @@ HALF SUBTRACTOR
 **Output**
 
 
+
 HALF ADDER
+
+
 
 
 ![Screenshot (106)](https://github.com/user-attachments/assets/8f47e582-94e9-4185-875a-5b86735941f4)
 
 
 
+
 HALF SUBTRACTOR
+
 
 
 
