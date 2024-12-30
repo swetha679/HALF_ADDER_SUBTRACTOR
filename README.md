@@ -79,23 +79,37 @@ registration number 24900367
 
 
 
-module ha(a,b,sum,carry);
+```module ha(a,b,sum,carry);
+
 input a,b;
+
 output sum, carry;
+
 assign sum= (a ^ b);
+
 assign carry= ( a & b);
+
+
 endmodule
+```
 
 
 
 
 
-module hs(a,b,difference,borrow);
+
+```module hs(a,b,difference,borrow);
+
 input a,b;
+
 output difference, borrow;
+
 assign difference= (a ^ b);
+
 assign borrow= ( ~a & b);
+
 endmodule
+```
 
 
 
@@ -104,13 +118,14 @@ endmodule
 
 **RTL Schematic**
 
-
+HALF ADDER
 
 
 
 ![Screenshot (50)](https://github.com/user-attachments/assets/7a4eb5b9-52dc-43c0-a686-3c21a5bdda13)
 
 
+HALF SUBTRACTOR
 
 
 ![Screenshot (52)](https://github.com/user-attachments/assets/227659b7-64df-4b31-82ed-05e05862065d)
@@ -122,12 +137,14 @@ endmodule
 **Output**
 
 
+HALF ADDER
 
 
 ![Screenshot (106)](https://github.com/user-attachments/assets/8f47e582-94e9-4185-875a-5b86735941f4)
 
 
 
+HALF SUBTRACTOR
 
 
 
