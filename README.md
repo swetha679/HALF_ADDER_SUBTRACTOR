@@ -79,7 +79,8 @@ registration number 24900367
 HALF ADDER
 
 
-```module ha(a,b,sum,carry);
+```
+module ha(a,b,sum,carry);
 
 input a,b;
 
@@ -98,7 +99,8 @@ HALF SUBTRACTOR
 
 
 
-```module hs(a,b,difference,borrow);
+```
+module hs(a,b,difference,borrow);
 
 input a,b;
 
